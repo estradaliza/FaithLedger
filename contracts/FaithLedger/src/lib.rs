@@ -1,7 +1,7 @@
 #![no_std]
 use soroban_sdk::{contract, contractimpl, contracttype, Address, Env, token, Symbol};
 
-@contract
+#[contract]
 pub struct FaithLedgerContract;
 
 #[contracttype]
